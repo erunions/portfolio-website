@@ -1,0 +1,81 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 300vh;
+    background-color: rgb(42, 39, 44);;
+}
+
+header {
+    height: 100vh;
+    background: rgb(60, 56, 63) url('person.png') 70% -20%/auto no-repeat;
+
+}
+
+.headercontainer {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headercontainer h1 {
+    position:relative;
+    top: 20vh;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+}
+
+.headerhr {
+    border: none;
+    margin-top: 20px;
+    border-top: 10px solid rgb(255, 255, 255);
+    width: 200px;
+    position:relative;
+    top: 20vh;
+}
+
+a {
+    color: rgba(0, 0, 0, 0);
+}
+
+.sociallinks {
+    position:relative;
+    top: 25vh;
+}
+
+i {
+    color: rgb(193, 193, 193);
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.fa-chevron-down {
+    text-align: center;
+    position:relative;
+    color: white;
+    bottom: 2vh;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+  }
