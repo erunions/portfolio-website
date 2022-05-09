@@ -6,14 +6,26 @@
 }
 
 body {
-    height: 300vh;
-    background-color: rgb(42, 39, 44);;
+    background-color: #2b282f;
 }
 
 header {
     height: 100vh;
-    background: rgb(60, 56, 63) url('person.png') 70% -20%/auto no-repeat;
+    background: #3b3a43 url('bg.jpg') center center/cover no-repeat;
+}
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5) url('person.png') 80% -20%/auto no-repeat;
+}
+
+.desc {
+    color: white;
+    position:relative;
+    font-size: 15px;
+    font-weight: 400;
+    top: 21vh;
 }
 
 .headercontainer {
@@ -30,13 +42,14 @@ header {
     top: 20vh;
     text-align: left;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 900;
 }
 
 .headerhr {
     border: none;
     margin-top: 20px;
-    border-top: 10px solid rgb(255, 255, 255);
+    border-top: 7px solid rgb(255, 255, 255);
     width: 200px;
     position:relative;
     top: 20vh;
@@ -52,7 +65,7 @@ a {
 }
 
 i {
-    color: rgb(193, 193, 193);
+    color: rgb(218, 218, 218);
     font-size: 30px;
     margin-right: 20px;
 }
@@ -78,4 +91,38 @@ i {
         -webkit-transform: translateY(0);
                 transform: translateY(0);
     }
-  }
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+h2 {
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.container hr {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 3px solid white;
+}
+
+i:hover {
+    color: white;
+}
+
+.container p {
+    color: rgb(211, 211, 211);
+    margin-bottom: 10px;
+}
+
+.itchlink {
+    color: white;
+    text-decoration: underline;
+}
